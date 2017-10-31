@@ -1,0 +1,31 @@
+# commands
+alias del="rm -rf"
+
+# dirs
+alias c="cd .."
+alias cd..="cd .."
+
+# git
+alias list="git config --list"
+alias add="git add "
+
+alias chto="git checkout "
+alias new="git checkout -b "
+
+alias log="git log --oneline --decorate"
+alias all="git log --oneline --decorate --all"
+
+alias res="git reset "
+alias clean="git reset --hard HEAD"
+
+alias status="git status"
+alias dff="git diff"
+alias cache="git diff --cached"
+
+alias com="git commit"
+alias amend="git commit --amend"
+
+alias pull="git pull"
+alias new="git remote add "
+alias push="git push "
+
