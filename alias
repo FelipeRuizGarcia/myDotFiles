@@ -13,7 +13,8 @@ alias global="git config --global"
 alias add="git add "
 
 alias chto="git checkout "
-alias new="git checkout -b "
+alias br="git checkout -b "
+alias delbr="git branch -D "
 
 alias log="git log --oneline --decorate"
 alias all="git log --oneline --decorate --all"
@@ -31,5 +32,4 @@ alias amend="git commit --amend"
 alias pull="git pull"
 alias new="git remote add "
 alias push="git push "
-
 
