@@ -6,6 +6,10 @@ alias c="cd .."
 alias cd..="cd .."
 
 # git
+
+git config --global user.email "felipe.de.jesus.ruiz.garcia@intel.com"
+git config --global user.name "Felipe de Jesus Ruiz Garcia"
+
 alias list="git config --list"
 alias config="git config "
 alias global="git config --global"
