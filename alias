@@ -18,7 +18,8 @@ alias global="git config --global"
 alias add="git add "
 
 alias chto="git checkout "
-alias br="git checkout -b "
+alias addbr="git checkout -b "
+alias br="git branch"
 alias delbr="git branch -D "
 alias mvbr="git branch -m"
 
