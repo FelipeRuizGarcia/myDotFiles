@@ -20,6 +20,7 @@ alias add="git add "
 alias chto="git checkout "
 alias br="git checkout -b "
 alias delbr="git branch -D "
+alias mvbr="git branch -m"
 
 alias log="git log --oneline --decorate"
 alias all="git log --oneline --decorate --all"
