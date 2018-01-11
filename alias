@@ -1,3 +1,8 @@
+# hosts
+alias bugs="ssh bugs-gfx.intel.com -l ad_fruizga"
+
+alias 3-3="ssh 10.219.114.162 -l gfx"
+
 # commands
 alias del="rm -rf"
 
@@ -5,8 +10,7 @@ alias del="rm -rf"
 alias c="cd .."
 alias cd..="cd .."
 
-# git
-
+# git user config
 git config --global user.email "felipe.de.jesus.ruiz.garcia@intel.com"
 git config --global user.name "Felipe de Jesus Ruiz Garcia"
 git config --global --add gitreview.username "fruizga"
@@ -18,7 +22,7 @@ alias global="git config --global"
 alias add="git add "
 
 alias chto="git checkout "
-alias addbr="git checkout -b "
+alias newbr="git checkout -b "
 alias br="git branch"
 alias delbr="git branch -D "
 alias mvbr="git branch -m"
@@ -27,7 +31,7 @@ alias log="git log --oneline --decorate"
 alias all="git log --oneline --decorate --all"
 
 alias res="git reset "
-alias clean="git reset --hard HEAD"
+alias clean="git reset --hard "
 
 alias status="git status"
 alias dff="git diff"
@@ -40,3 +44,5 @@ alias pull="git pull"
 alias new="git remote add "
 alias push="git push "
 
+#git review
+alias rv="git review "
